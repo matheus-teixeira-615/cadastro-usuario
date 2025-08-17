@@ -1,37 +1,34 @@
 📌 CRUD com Banco H2
+📖 Sobre o Projeto
 
-📖 **Sobre o Projeto**
+Sistema CRUD (Create, Read, Update, Delete) em Java + Spring Boot, usando H2 em memória.
+Treina cadastro, gerenciamento de dados, consultas por e-mail e uso de operações ternárias para evitar exclusão de informações não fornecidas.
 
-Este projeto é um sistema CRUD (Create, Read, Update, Delete) desenvolvido em Java com Spring Boot, utilizando o banco H2 em memória para persistência de dados. O objetivo é demonstrar e praticar operações básicas de cadastro e gerenciamento de dados, o uso de operações ternárias para evitar exclusão direta e a realização de consultas por e-mail, em vez de utilizar apenas o ID da JPA.
+----------------------------------------
+🚀 Tecnologias
 
-🚀 **Tecnologias Utilizadas**
+💻 Java 21
+🌐 Spring Boot & Spring Web
+📦 Spring Data JPA
+🗄️ H2 Database
+✨ Lombok
+📂 Maven
 
-Java 21
+⚙️ Funcionalidades
 
-Spring Boot
+➕ Criar registro
 
-Spring Web
+📋 Listar registros
 
-Lombrok
+🔍 Buscar registro por e-mail – treina consultas alternativas em JPA
 
-H2 Database
+✏️ Atualizar registro – evita exclusão de dados não passados usando operação ternária
 
-Spring Data JPA
+❌ Excluir registro
 
-Maven
+🗄️ Banco H2
 
-
-⚙️ **Funcionalidades**
-
-- Criar um novo registro
-- Listar todos os registros
-- Buscar registro por Email ( Decidi implementar a busca por e-mail para treinar diferentes formas de realizar consultas utilizando JPA ).
-- Atualizar registro existente ( Utilizando a operação ternária para evitar a exclusão direta de dados que não foram passados ).
-- Excluir registro
-
-🗄️ **Configuração do Banco H2**
-
-No arquivo application.properties:
+Configuração no application.properties:
 
 spring.application.name=cadastro-usuario
 spring.h2.console.enabled=true
@@ -41,27 +38,28 @@ spring.datasource.driverClassName=org.h2.Driver
 spring.datasource.username=sa
 spring.datasource.password=
 
-Para acessar o console do banco:
-🔗 http://localhost:8080/h2-console
 
+Console do H2:
+🔗 http://localhost:8080/h2-console
 Senha: (em branco)
 
-▶️ **Como Rodar o Projeto**
+▶️ Como Rodar
 
-Clone o repositório:
+Clonar o repositório:
 
 git clone https://github.com/usuario/cadastro-usuario.git
 
-Acesse a pasta do projeto:
 
-cd nome-do-projeto
+Entrar na pasta do projeto:
+
+cd cadastro-usuario
 
 
-Execute a aplicação:
+Rodar a aplicação:
 
 mvn spring-boot:run
 
 
-ou
+ou, se usar Gradle:
 
 ./gradlew bootRun
