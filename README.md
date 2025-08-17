@@ -1,8 +1,7 @@
 📌 CRUD com Banco H2
 📖 Sobre o Projeto
 
-Este projeto é um sistema CRUD (Create, Read, Update, Delete) desenvolvido em Java utilizando o Spring Boot, com persistência de dados em um banco H2 Database (em memória).
-O objetivo é demonstrar e praticar o funcionamento de operações básicas de cadastro e gerenciamento de dados.
+Este projeto é um sistema CRUD (Create, Read, Update, Delete) desenvolvido em Java com Spring Boot, utilizando o banco H2 em memória para persistência de dados. O objetivo é demonstrar e praticar operações básicas de cadastro e gerenciamento de dados, o uso de operações ternárias para evitar exclusão direta e a realização de consultas por e-mail, em vez de utilizar apenas o ID da JPA.
 
 🚀 Tecnologias Utilizadas
 
