@@ -49,7 +49,7 @@ Senha: (em branco)
 
 Clonar o repositório:
 
-```git clone https://github.com/usuario/cadastro-usuario.git```
+```git clone https://github.com/matheus-teixeira-615/cadastro-usuario.git```
 
 
 Entrar na pasta do projeto:
