@@ -1,19 +1,27 @@
 📌 CRUD com Banco H2
-📖 Sobre o Projeto
+
+📖 **Sobre o Projeto**
 
 Este projeto é um sistema CRUD (Create, Read, Update, Delete) desenvolvido em Java com Spring Boot, utilizando o banco H2 em memória para persistência de dados. O objetivo é demonstrar e praticar operações básicas de cadastro e gerenciamento de dados, o uso de operações ternárias para evitar exclusão direta e a realização de consultas por e-mail, em vez de utilizar apenas o ID da JPA.
 
-🚀 Tecnologias Utilizadas
+🚀 **Tecnologias Utilizadas**
 
 Java 21
+
 Spring Boot
+
 Spring Web
+
 Lombrok
+
 H2 Database
+
 Spring Data JPA
+
 Maven
 
-⚙️ Funcionalidades
+
+⚙️ **Funcionalidades**
 
 - Criar um novo registro
 - Listar todos os registros
@@ -21,7 +29,7 @@ Maven
 - Atualizar registro existente ( Utilizando a operação ternária para evitar a exclusão direta de dados que não foram passados ).
 - Excluir registro
 
-🗄️ Configuração do Banco H2
+🗄️ **Configuração do Banco H2**
 
 No arquivo application.properties:
 
@@ -38,7 +46,7 @@ Para acessar o console do banco:
 
 Senha: (em branco)
 
-▶️ Como Rodar o Projeto
+▶️ **Como Rodar o Projeto**
 
 Clone o repositório:
 
