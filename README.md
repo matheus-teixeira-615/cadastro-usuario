@@ -3,7 +3,7 @@
 <h3>📖 Sobre o Projeto</h3>
 
 Sistema CRUD (Create, Read, Update, Delete) em Java + Spring Boot, usando H2 em memória.
-Treina cadastro, gerenciamento de dados, consultas por e-mail e uso de operações ternárias para evitar exclusão de informações não fornecidas.
+Para Treinar o cadastro, o gerenciamento de dados, a consulta por e-mail e o uso de operações ternárias para evitar exclusão de informações não fornecidas.
 
 <h3>🚀 Tecnologias</h3>
 
